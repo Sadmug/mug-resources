@@ -93,9 +93,11 @@
     if (count > 0) {
       badge.textContent = count;
       badge.removeAttribute('hidden');
+      badge.style.display = 'inline-flex';
       summary.classList.add('is-active');
     } else {
       badge.setAttribute('hidden', '');
+      badge.style.display = 'none';
       summary.classList.remove('is-active');
     }
   }
@@ -106,59 +108,60 @@
 
     if (searchClearBtn) {
       searchClearBtn.hidden = !rawQuery;
+      searchClearBtn.style.display = rawQuery ? 'block' : 'none';
     }
 
     let visibleCount = 0;
 
     cards.forEach(card => {
-      const id = card.getAttribute('data-id');
-      const item = resourcesMap.get(id);
-      if (!item) {
-        card.hidden = true;
-        return;
-      }
+      const cardGroups = (card.getAttribute('data-groups') || '').split(',').filter(Boolean);
+      const cardType = card.getAttribute('data-type') || '';
+      const cardPricing = card.getAttribute('data-pricing') || '';
+      const cardPlatforms = (card.getAttribute('data-platforms') || '').split(',').filter(Boolean);
+      const cardLicense = card.getAttribute('data-license') || '';
+      const cardSearch = card.getAttribute('data-search') || '';
 
       // Search match (name, description, keywords)
       let matchesSearch = true;
       if (query) {
-        matchesSearch = item._searchIndex.includes(query);
+        matchesSearch = cardSearch.includes(query);
       }
 
       // Group match (can be in several groups)
       let matchesGroup = true;
       if (currentGroup !== 'all') {
-        matchesGroup = Array.isArray(item.groups) && item.groups.includes(currentGroup);
+        matchesGroup = cardGroups.includes(currentGroup);
       }
 
       // Type match (OR within category)
       let matchesType = true;
       if (selectedTypes.size > 0) {
-        matchesType = selectedTypes.has(item.type);
+        matchesType = selectedTypes.has(cardType);
       }
 
       // Pricing match (OR within category)
       let matchesPricing = true;
       if (selectedPricings.size > 0) {
-        matchesPricing = selectedPricings.has(item.pricing);
+        matchesPricing = selectedPricings.has(cardPricing);
       }
 
       // Platform match (OR within category)
       let matchesPlatform = true;
       if (selectedPlatforms.size > 0) {
-        matchesPlatform = Array.isArray(item.platforms) && item.platforms.some(p => selectedPlatforms.has(p));
+        matchesPlatform = cardPlatforms.some(p => selectedPlatforms.has(p));
       }
 
       // License match (OR within category)
       let matchesLicense = true;
       if (selectedLicenses.size > 0) {
-        const licName = item.license ? item.license.name : '';
-        matchesLicense = selectedLicenses.has(licName);
+        matchesLicense = selectedLicenses.has(cardLicense);
       }
 
       // AND between different categories
       const isVisible = matchesSearch && matchesGroup && matchesType && matchesPricing && matchesPlatform && matchesLicense;
 
       card.hidden = !isVisible;
+      card.style.display = isVisible ? '' : 'none';
       if (isVisible) {
         visibleCount++;
       }
@@ -173,6 +176,7 @@
     // Toggle empty state
     if (emptyStateEl) {
       emptyStateEl.hidden = visibleCount > 0;
+      emptyStateEl.style.display = visibleCount > 0 ? 'none' : 'flex';
     }
 
     // Sync to URL
@@ -404,8 +408,10 @@
       if (r.type) {
         dialogType.textContent = typesMap.get(r.type) || r.type;
         dialogType.hidden = false;
+        dialogType.style.display = '';
       } else {
         dialogType.hidden = true;
+        dialogType.style.display = 'none';
       }
     }
 
@@ -417,8 +423,10 @@
           return `<span class="badge badge-group">${escapeHtml(lbl)}</span>`;
         }).join('');
         dialogGroups.hidden = false;
+        dialogGroups.style.display = '';
       } else {
         dialogGroups.hidden = true;
+        dialogGroups.style.display = 'none';
       }
     }
 
@@ -427,8 +435,10 @@
       if (r.description) {
         dialogDescription.textContent = r.description;
         dialogDescription.hidden = false;
+        dialogDescription.style.display = '';
       } else {
         dialogDescription.hidden = true;
+        dialogDescription.style.display = 'none';
       }
     }
 
@@ -443,11 +453,14 @@
 
         if (dialogCommercialBadge) {
           dialogCommercialBadge.hidden = !r.license.commercial_use;
+          dialogCommercialBadge.style.display = r.license.commercial_use ? '' : 'none';
         }
 
         dialogLicenseRow.hidden = false;
+        dialogLicenseRow.style.display = '';
       } else {
         dialogLicenseRow.hidden = true;
+        dialogLicenseRow.style.display = 'none';
       }
     }
 
@@ -461,14 +474,18 @@
           if (r.pricing_note && r.pricing_note.trim()) {
             dialogPricingNote.textContent = r.pricing_note;
             dialogPricingNote.hidden = false;
+            dialogPricingNote.style.display = '';
           } else {
             dialogPricingNote.hidden = true;
+            dialogPricingNote.style.display = 'none';
           }
         }
 
         dialogPricingRow.hidden = false;
+        dialogPricingRow.style.display = '';
       } else {
         dialogPricingRow.hidden = true;
+        dialogPricingRow.style.display = 'none';
       }
     }
 
@@ -480,8 +497,10 @@
           return `<span class="tag-item">${escapeHtml(plabel)}</span>`;
         }).join('');
         dialogPlatformsRow.hidden = false;
+        dialogPlatformsRow.style.display = '';
       } else {
         dialogPlatformsRow.hidden = true;
+        dialogPlatformsRow.style.display = 'none';
       }
     }
 
@@ -492,8 +511,10 @@
           return `<a href="${escapeHtml(l.url)}" target="_blank" rel="noopener noreferrer" class="dialog-extra-link">${escapeHtml(l.label)}</a>`;
         }).join('');
         dialogLinksRow.hidden = false;
+        dialogLinksRow.style.display = '';
       } else {
         dialogLinksRow.hidden = true;
+        dialogLinksRow.style.display = 'none';
       }
     }
 
@@ -502,8 +523,10 @@
       if (r.url) {
         dialogVisitBtn.href = r.url;
         dialogVisitBtn.hidden = false;
+        dialogVisitBtn.style.display = '';
       } else {
         dialogVisitBtn.hidden = true;
+        dialogVisitBtn.style.display = 'none';
       }
     }
 

@@ -23,6 +23,15 @@ function escapeHtml(str) {
     .replace(/'/g, '&#39;');
 }
 
+function normalize(str) {
+  if (!str) return '';
+  return String(str)
+    .normalize('NFD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .trim();
+}
+
 if (!fs.existsSync(dataFile)) {
   console.error(`Error: data file not found at ${dataFile}`);
   process.exit(1);
@@ -137,7 +146,14 @@ const cardsHtml = resources.map(r => {
     ? `          <p class="card-description">${escapeHtml(r.description)}</p>`
     : '';
 
-  return `        <article class="resource-card" role="button" tabindex="0" data-id="${escapeHtml(r.id)}" aria-label="View details for ${escapeHtml(r.name)}">
+  const groupsAttr = (r.groups || []).join(',');
+  const platformsAttr = (r.platforms || []).join(',');
+  const typeAttr = r.type || '';
+  const pricingAttr = r.pricing || '';
+  const licenseAttr = r.license && r.license.name ? r.license.name : '';
+  const searchAttr = normalize([r.name, r.description, ...(r.keywords || [])].join(' '));
+
+  return `        <article class="resource-card" role="button" tabindex="0" data-id="${escapeHtml(r.id)}" data-name="${escapeHtml(r.name)}" data-groups="${escapeHtml(groupsAttr)}" data-type="${escapeHtml(typeAttr)}" data-pricing="${escapeHtml(pricingAttr)}" data-platforms="${escapeHtml(platformsAttr)}" data-license="${escapeHtml(licenseAttr)}" data-search="${escapeHtml(searchAttr)}" aria-label="View details for ${escapeHtml(r.name)}">
           <div class="card-top">
             <div class="card-avatar" aria-hidden="true">${avatarContent}</div>
             <div class="card-info">
