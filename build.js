@@ -256,8 +256,8 @@ const fullHtml = `<!DOCTYPE html>
     <!-- Header Navigation -->
     <header class="site-header" role="banner">
       <div class="nav-container">
-        <a href="https://jugurthasadeg.sadmug.dev/" class="brand-link" aria-label="J. SADEG Graphic Design Home">
-          <img src="assets/logo/logo-light.svg" alt="J. SADEG Logo" class="brand-logo" width="250" height="79">
+        <a href="https://jugurthasadeg.sadmug.dev" class="brand-link" aria-label="Jugurtha Sadeg, graphic design" target="_blank" rel="noopener noreferrer">
+          <img src="assets/logo/logo-dark.svg" alt="J. SADEG Logo" class="brand-logo" width="250" height="79">
         </a>
         <button type="button" class="burger-btn" id="burger-btn" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
           <svg class="burger-icon burger-icon-open" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true">
@@ -449,8 +449,8 @@ ${cardsHtml}
       <div class="footer-content">
         <span>&copy; sadmug | This page is under GPL-3.0.</span>
         <ul class="footer-links">
-          <li><a href="https://sadmug.dev" class="footer-link" target="_blank" rel="noopener noreferrer">Sadmug</a></li>
-          <li><a href="https://jugurthasadeg.sadmug.dev" class="footer-link" target="_blank" rel="noopener noreferrer">J. Sadeg</a></li>
+          <li><a href="https://jugurthasadeg.sadmug.dev" class="footer-link" target="_blank" rel="noopener noreferrer">Jugurtha Sadeg</a></li>
+          <li><a href="https://sadmug.dev" class="footer-link" target="_blank" rel="noopener noreferrer">SadMug</a></li>
         </ul>
       </div>
     </footer>
