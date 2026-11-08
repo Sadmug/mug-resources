@@ -115,16 +115,27 @@ const arrowButtonSvg = `<svg width="41" height="41" viewBox="0 0 41 41" fill="no
 
 // Render Cards
 const cardsHtml = resources.map(r => {
-  const avatarContent = r.icon
-    ? `<img src="${escapeHtml(r.icon)}" alt="${escapeHtml(r.name)} icon" loading="lazy">`
-    : escapeHtml(r.name ? r.name.charAt(0).toUpperCase() : '?');
-
   const typeLabel = r.type ? typesMap.get(r.type) || r.type : '';
   const pricingLabel = r.pricing ? pricingMap.get(r.pricing) || r.pricing : '';
   const licenseName = r.license && r.license.name ? r.license.name : '';
 
+  const pList = r.platforms || [];
+  let platformChipsHtml = '';
+  if (pList.length > 0) {
+    const maxChips = 3;
+    const visibleChips = pList.slice(0, maxChips).map(pid => {
+      const pLabel = platformsMap.get(pid) || pid;
+      return `<span class="badge badge-platform">${escapeHtml(pLabel)}</span>`;
+    });
+    if (pList.length > maxChips) {
+      const extraCount = pList.length - maxChips;
+      visibleChips.push(`<span class="badge badge-platform badge-platform-more">+${extraCount}</span>`);
+    }
+    platformChipsHtml = `<div class="card-platforms-preview">${visibleChips.join('')}</div>`;
+  }
+
   const typeBadgeHtml = typeLabel
-    ? `<span class="badge badge-type">${escapeHtml(typeLabel)}</span>`
+    ? `<span class="badge badge-type card-type-badge">${escapeHtml(typeLabel)}</span>`
     : '';
 
   const licenseBadgeHtml = licenseName
@@ -154,18 +165,16 @@ const cardsHtml = resources.map(r => {
   const searchAttr = normalize([r.name, r.description, ...(r.keywords || [])].join(' '));
 
   return `        <article class="resource-card" role="button" tabindex="0" data-id="${escapeHtml(r.id)}" data-name="${escapeHtml(r.name)}" data-groups="${escapeHtml(groupsAttr)}" data-type="${escapeHtml(typeAttr)}" data-pricing="${escapeHtml(pricingAttr)}" data-platforms="${escapeHtml(platformsAttr)}" data-license="${escapeHtml(licenseAttr)}" data-search="${escapeHtml(searchAttr)}" aria-label="View details for ${escapeHtml(r.name)}">
-          <div class="card-top">
-            <div class="card-avatar" aria-hidden="true">${avatarContent}</div>
-            <div class="card-info">
-              <div class="card-header-line">
-                <h2 class="card-name">${escapeHtml(r.name)}</h2>
-                ${typeBadgeHtml}
-              </div>
-${metaLineHtml}
+          <div class="card-left">
+            <div class="card-title-row">
+              <h2 class="card-name">${escapeHtml(r.name)}</h2>
+              ${platformChipsHtml}
             </div>
-          </div>
+${metaLineHtml}
 ${descriptionHtml}
-          <div class="card-bottom">
+          </div>
+          ${typeBadgeHtml}
+          <div class="card-arrow-wrap">
             <a href="${escapeHtml(r.url)}" target="_blank" rel="noopener noreferrer" class="card-arrow-btn" aria-label="Open ${escapeHtml(r.name)}" title="Open ${escapeHtml(r.name)}">
               ${arrowButtonSvg}
             </a>
@@ -386,7 +395,6 @@ ${cardsHtml}
       <div class="dialog-container">
         <header class="dialog-header">
           <div class="dialog-header-left">
-            <div id="dialog-avatar" class="dialog-avatar" aria-hidden="true"></div>
             <div class="dialog-title-block">
               <h2 id="dialog-title" class="dialog-title"></h2>
               <div class="dialog-tags">

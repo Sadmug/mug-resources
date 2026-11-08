@@ -567,9 +567,12 @@ a {
 }
 
 .resource-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: auto 1fr;
+  align-items: center;
+  column-gap: clamp(1rem, 2vw, 1.75rem);
   background-color: var(--color-bg, #ECF1FF);
   border: 1px solid var(--color-dark, #391224);
   border-radius: var(--radius-card, 10px);
@@ -578,7 +581,6 @@ a {
   text-decoration: none;
   color: inherit;
   cursor: pointer;
-  position: relative;
   transition: transform var(--transition-base, 0.2s ease-in-out), box-shadow var(--transition-base, 0.2s ease-in-out);
 }
 
@@ -592,59 +594,37 @@ a {
   outline-offset: var(--focus-offset, 3px);
 }
 
-.card-top {
-  display: flex;
-  align-items: flex-start;
-  gap: 16px;
-}
-
-.card-avatar {
-  width: 52px;
-  height: 52px;
-  border-radius: var(--radius-circle, 50%);
-  background-color: var(--color-dark, #391224);
-  color: var(--color-bg, #ECF1FF);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-family: var(--font-family-base, 'ABeeZee', system-ui, sans-serif);
-  font-size: 1.5rem;
-  font-weight: 500;
-  flex-shrink: 0;
-  overflow: hidden;
-  user-select: none;
-}
-
-.card-avatar img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-.card-info {
+.card-left {
+  grid-column: 1;
+  grid-row: 1 / -1;
   display: flex;
   flex-direction: column;
-  gap: 6px;
-  flex-grow: 1;
+  gap: 8px;
   min-width: 0;
+  width: 100%;
 }
 
-.card-header-line {
+.card-title-row {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 8px;
   flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 10px;
 }
 
 .card-name {
   margin: 0;
   font-family: var(--font-family-base, 'ABeeZee', system-ui, sans-serif);
-  font-size: 1.25rem;
+  font-size: clamp(1.2rem, 1.8vw, 1.35rem);
   font-weight: 500;
   color: var(--color-dark, #391224);
   line-height: 1.25;
+}
+
+.card-platforms-preview {
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
 }
 
 .card-meta-line {
@@ -654,51 +634,8 @@ a {
   flex-wrap: wrap;
 }
 
-/* Badges */
-.badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 3px 10px;
-  font-family: var(--font-family-base, 'ABeeZee', system-ui, sans-serif);
-  font-size: 0.8rem;
-  line-height: 1.2;
-  border-radius: var(--radius-tag, 8px);
-  white-space: nowrap;
-}
-
-.badge-type {
-  background-color: rgba(62, 162, 190, 0.15);
-  color: var(--color-dark, #391224);
-  border: 1px solid var(--color-secondary-cyan, #3EA2BE);
-}
-
-.badge-license {
-  background-color: rgba(57, 18, 36, 0.08);
-  color: var(--color-dark, #391224);
-  border: 1px solid rgba(57, 18, 36, 0.25);
-}
-
-.badge-pricing {
-  background-color: rgba(34, 181, 115, 0.15);
-  color: var(--color-dark, #391224);
-  border: 1px solid var(--color-main, #22B573);
-}
-
-.badge-commercial {
-  background-color: var(--color-main, #22B573);
-  color: var(--color-dark, #391224);
-  font-weight: 500;
-}
-
-.badge-group {
-  background-color: transparent;
-  color: var(--color-dark, #391224);
-  border: 1px solid var(--color-dark, #391224);
-}
-
-/* Card Description */
 .card-description {
-  margin: 1rem 0 1.25rem 0;
+  margin: 2px 0 0 0;
   font-family: var(--font-family-base, 'ABeeZee', system-ui, sans-serif);
   font-size: 0.95rem;
   line-height: 1.45;
@@ -708,15 +645,25 @@ a {
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
-  flex-grow: 1;
+  width: 100%;
 }
 
-/* Card Bottom */
-.card-bottom {
+.card-type-badge {
+  grid-column: 2;
+  grid-row: 1;
+  align-self: start;
+  justify-self: end;
+}
+
+.card-arrow-wrap {
+  grid-column: 2;
+  grid-row: 1 / -1;
+  align-self: center;
+  justify-self: end;
   display: flex;
   align-items: center;
-  justify-content: flex-start;
-  margin-top: auto;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 .card-arrow-btn {
@@ -744,6 +691,63 @@ a {
   width: 100%;
   height: 100%;
   display: block;
+}
+
+/* Badges */
+.badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 3px 10px;
+  font-family: var(--font-family-base, 'ABeeZee', system-ui, sans-serif);
+  font-size: 0.8rem;
+  line-height: 1.2;
+  border-radius: var(--radius-tag, 8px);
+  white-space: nowrap;
+}
+
+.badge-type {
+  background-color: rgba(62, 162, 190, 0.15);
+  color: var(--color-dark, #391224);
+  border: 1px solid var(--color-secondary-cyan, #3EA2BE);
+}
+
+.badge-license {
+  background-color: rgba(57, 18, 36, 0.08);
+  color: var(--color-dark, #391224);
+  border: 1px solid rgba(57, 18, 36, 0.25);
+}
+
+.badge-platform {
+  background-color: rgba(57, 18, 36, 0.08);
+  color: var(--color-dark, #391224);
+  border: 1px solid rgba(57, 18, 36, 0.25);
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: var(--radius-tag, 8px);
+  line-height: 1.2;
+}
+
+.badge-platform-more {
+  font-weight: 600;
+  background-color: rgba(57, 18, 36, 0.12);
+}
+
+.badge-pricing {
+  background-color: rgba(34, 181, 115, 0.15);
+  color: var(--color-dark, #391224);
+  border: 1px solid var(--color-main, #22B573);
+}
+
+.badge-commercial {
+  background-color: var(--color-main, #22B573);
+  color: var(--color-dark, #391224);
+  font-weight: 500;
+}
+
+.badge-group {
+  background-color: transparent;
+  color: var(--color-dark, #391224);
+  border: 1px solid var(--color-dark, #391224);
 }
 
 /* ==========================================================================
@@ -1148,5 +1152,44 @@ a {
 
   .dialog-meta-grid {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 639px) {
+  .resource-card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    padding: 1.25rem;
+    gap: 0.75rem;
+  }
+
+  .card-type-badge {
+    position: absolute;
+    top: 1.25rem;
+    right: 1.25rem;
+  }
+
+  .card-left {
+    width: 100%;
+  }
+
+  .card-title-row {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding-right: 75px;
+  }
+
+  .card-platforms-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .card-arrow-wrap {
+    align-self: flex-end;
+    margin-top: 0.25rem;
   }
 }

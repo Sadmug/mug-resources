@@ -61,7 +61,6 @@
   // Dialog Elements
   const dialog = document.getElementById('detail-dialog');
   const dialogCloseBtn = document.getElementById('dialog-close-btn');
-  const dialogAvatar = document.getElementById('dialog-avatar');
   const dialogTitle = document.getElementById('dialog-title');
   const dialogType = document.getElementById('dialog-type');
   const dialogGroups = document.getElementById('dialog-groups');
@@ -388,16 +387,6 @@
     const r = resourcesMap.get(resourceId);
     if (!r) return;
 
-    // Avatar
-    if (dialogAvatar) {
-      if (r.icon) {
-        dialogAvatar.innerHTML = `<img src="${escapeHtml(r.icon)}" alt="${escapeHtml(r.name)} icon">`;
-      } else {
-        const letter = r.name ? r.name.charAt(0).toUpperCase() : '?';
-        dialogAvatar.textContent = letter;
-      }
-    }
-
     // Name
     if (dialogTitle) {
       dialogTitle.textContent = r.name || '';
@@ -494,7 +483,7 @@
       if (Array.isArray(r.platforms) && r.platforms.length > 0) {
         dialogPlatformsVal.innerHTML = r.platforms.map(pid => {
           const plabel = platformsMap.get(pid) || pid;
-          return `<span class="tag-item">${escapeHtml(plabel)}</span>`;
+          return `<span class="badge badge-platform">${escapeHtml(plabel)}</span>`;
         }).join('');
         dialogPlatformsRow.hidden = false;
         dialogPlatformsRow.style.display = '';
