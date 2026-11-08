@@ -1,0 +1,2655 @@
+{
+  "groups": [
+    {
+      "id": "fonts",
+      "label": "Fonts"
+    },
+    {
+      "id": "raster",
+      "label": "Raster"
+    },
+    {
+      "id": "vector",
+      "label": "Vector"
+    },
+    {
+      "id": "color",
+      "label": "Color"
+    },
+    {
+      "id": "moodboarding",
+      "label": "Moodboarding/Brainstorming"
+    },
+    {
+      "id": "video",
+      "label": "Video/Animation"
+    },
+    {
+      "id": "audio",
+      "label": "Audio"
+    },
+    {
+      "id": "3d",
+      "label": "3D"
+    },
+    {
+      "id": "game-making",
+      "label": "Game Making"
+    },
+    {
+      "id": "other",
+      "label": "Uncategorized/Unrelated"
+    }
+  ],
+  "types": [
+    {
+      "id": "source",
+      "label": "Source"
+    },
+    {
+      "id": "tool",
+      "label": "Tool"
+    },
+    {
+      "id": "framework",
+      "label": "Framework/Library"
+    },
+    {
+      "id": "engine",
+      "label": "Engine"
+    },
+    {
+      "id": "extension",
+      "label": "Extension"
+    },
+    {
+      "id": "browser",
+      "label": "Browser"
+    },
+    {
+      "id": "office",
+      "label": "Office"
+    }
+  ],
+  "pricing": [
+    {
+      "id": "free",
+      "label": "Free"
+    },
+    {
+      "id": "freemium",
+      "label": "Freemium"
+    },
+    {
+      "id": "one-time",
+      "label": "One-time purchase"
+    },
+    {
+      "id": "subscription",
+      "label": "Subscription"
+    },
+    {
+      "id": "paid",
+      "label": "Paid"
+    }
+  ],
+  "platforms": [
+    {
+      "id": "linux",
+      "label": "Linux"
+    },
+    {
+      "id": "windows",
+      "label": "Windows"
+    },
+    {
+      "id": "macos",
+      "label": "macOS"
+    },
+    {
+      "id": "bsd",
+      "label": "BSD"
+    },
+    {
+      "id": "web",
+      "label": "Web"
+    },
+    {
+      "id": "android",
+      "label": "Android"
+    },
+    {
+      "id": "ios",
+      "label": "iOS"
+    },
+    {
+      "id": "ipad",
+      "label": "iPadOS"
+    },
+    {
+      "id": "chromeos",
+      "label": "ChromeOS"
+    },
+    {
+      "id": "browser-extension",
+      "label": "Browser extension"
+    }
+  ],
+  "resources": [
+    {
+      "id": "the-league-of-moveable-type",
+      "name": "The League of Moveable Type",
+      "url": "https://www.theleagueofmoveabletype.com/",
+      "groups": [
+        "fonts"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Open licenses (mostly OFL)",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "One of the first free, open-source web font foundries, small library but well-crafted.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "collletttivo",
+      "name": "Collletttivo",
+      "url": "https://www.collletttivo.it/typefaces",
+      "groups": [
+        "fonts"
+      ],
+      "type": "source",
+      "license": {
+        "name": "OFL",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Open-source, collectively designed contemporary Italian typefaces.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "google-fonts",
+      "name": "Google Fonts",
+      "url": "https://fonts.google.com/",
+      "groups": [
+        "fonts"
+      ],
+      "type": "source",
+      "license": {
+        "name": "OFL, Apache-2.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Free, open-source web font library, huge but hit-or-miss on quality, also hosts Material Symbols, a solid icon set.",
+      "keywords": [
+        "typefaces",
+        "web fonts"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "fontshare",
+      "name": "FontShare",
+      "url": "https://www.fontshare.com/",
+      "groups": [
+        "fonts"
+      ],
+      "type": "source",
+      "license": {
+        "name": "ITF Free Font License",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Curated free fonts from Indian Type Foundry, generally more polished than most free libraries.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "velvetyne",
+      "name": "Velvetyne",
+      "url": "https://velvetyne.fr/",
+      "groups": [
+        "fonts"
+      ],
+      "type": "source",
+      "license": {
+        "name": "OFL",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "French, community-run foundry, leans experimental and multilingual.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "bye-bye-binary",
+      "name": "Bye Bye Binary",
+      "url": "https://typotheque.genderfluid.space/fr",
+      "groups": [
+        "fonts"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Open licenses (mostly OFL)",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "French collective distributing inclusive, non-binary and post-binary typefaces.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "open-source-publishing",
+      "name": "Open Source Publishing",
+      "url": "https://osp.kitchen/",
+      "groups": [
+        "fonts"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Libre licenses (OFL, GPL)",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Brussels-based collective building libre fonts and tools, DIY and workshop-driven.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "wordmark",
+      "name": "Wordmark",
+      "url": "https://wordmark.it/",
+      "groups": [
+        "fonts"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Types your text out across every font installed on your system at once, for quick comparison.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "mockups-design",
+      "name": "Mockups Design",
+      "url": "https://mockups-design.com/",
+      "groups": [
+        "raster"
+      ],
+      "type": "source",
+      "license": {
+        "name": "custom license",
+        "url": "https://mockups-design.com/license/",
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Layered PSD mockups organized by category, packaging, business cards, apparel, outdoor signage, more realistic than generic template packs.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "platforms"
+      ]
+    },
+    {
+      "id": "poly-haven",
+      "name": "Poly Haven",
+      "url": "https://polyhaven.com/",
+      "groups": [
+        "raster",
+        "3d"
+      ],
+      "type": "source",
+      "license": {
+        "name": "CC0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "freemium",
+      "pricing_note": "Free, with optional paid support",
+      "platforms": [
+        "web"
+      ],
+      "description": "Mainly for 3D work but they offer a wide range of textures that can be used for other purposes.",
+      "keywords": [
+        "hdri",
+        "pbr",
+        "textures",
+        "models"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "platforms"
+      ]
+    },
+    {
+      "id": "ambient-cg",
+      "name": "Ambient CG",
+      "url": "https://ambientcg.com/",
+      "groups": [
+        "raster",
+        "3d"
+      ],
+      "type": "source",
+      "license": {
+        "name": "CC0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "PBR materials, more focused purely on textures than Poly Haven.",
+      "keywords": [
+        "pbr",
+        "textures",
+        "materials"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "texture-labs",
+      "name": "Texture Labs",
+      "url": "https://texturelabs.org/",
+      "groups": [
+        "raster"
+      ],
+      "type": "source",
+      "license": {
+        "name": "custom license",
+        "url": "https://texturelabs.org/terms/?tab=end-userlicense-agreement",
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "A wide range of high-quality textures, leaning grunge, paper, and print-decay, photographic overlays rather than the PBR materials Poly Haven and Ambient CG use.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "platforms"
+      ]
+    },
+    {
+      "id": "public-domain-image-archive",
+      "name": "Public Domain Image Archive",
+      "url": "https://pdimagearchive.org/",
+      "groups": [
+        "raster"
+      ],
+      "type": "source",
+      "license": {
+        "name": "CC0",
+        "url": "https://pdimagearchive.org/about/",
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Hand-picked collection of out-of-copyright works.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "platforms"
+      ]
+    },
+    {
+      "id": "nypl-digital-collections",
+      "name": "NYPL Digital Collections",
+      "url": "https://digitalcollections.nypl.org/",
+      "groups": [
+        "raster"
+      ],
+      "type": "source",
+      "license": {
+        "name": "CC0",
+        "url": "https://digitalcollections.nypl.org/about",
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Collection of items digitized from The New York Public Library's collections.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "platforms"
+      ]
+    },
+    {
+      "id": "transparent-textures",
+      "name": "Transparent Textures",
+      "url": "https://www.transparenttextures.com/",
+      "groups": [
+        "raster"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Varies per pattern",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Collection of textures with css presets.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "krita",
+      "name": "Krita",
+      "url": "https://krita.org/en/",
+      "groups": [
+        "raster"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-3.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Free, open-source raster editor, focused on digital painting and illustration.",
+      "keywords": [
+        "digital painting",
+        "drawing",
+        "illustration"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "photopea",
+      "name": "Photopea",
+      "url": "https://www.photopea.com/",
+      "groups": [
+        "raster"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Free with ads, paid to remove them",
+      "platforms": [
+        "web"
+      ],
+      "description": "Photoshop alternative, opens PSD and other native formats.",
+      "keywords": [
+        "photoshop alternative",
+        "psd",
+        "online editor"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing"
+      ]
+    },
+    {
+      "id": "rawtherapee",
+      "name": "RawTherapee",
+      "url": "https://rawtherapee.com/",
+      "groups": [
+        "raster"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-3.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Free, open-source RAW photo processor.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "gimp",
+      "name": "GIMP",
+      "url": "https://gimp.org/",
+      "groups": [
+        "raster"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-3.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Free, open-source raster editor, similar to Photoshop.",
+      "keywords": [
+        "photoshop alternative",
+        "photo editing"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "aseprite",
+      "name": "Aseprite",
+      "url": "https://www.aseprite.org/",
+      "groups": [
+        "raster"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "custom license",
+        "url": "https://github.com/aseprite/aseprite/blob/main/EULA.txt",
+        "commercial_use": null
+      },
+      "pricing": "one-time",
+      "pricing_note": "Buy a key, or build the source yourself for free",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Pixel-art editor. Buy a one-time key to support the developer, or build the source yourself for free.",
+      "keywords": [
+        "pixel art",
+        "sprites",
+        "animation"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/aseprite/aseprite"
+        },
+        {
+          "label": "Windows prebuilt (lags behind on updates)",
+          "url": "https://github.com/HaiMengg/aseprite-prebuilt/releases"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "libresprite",
+      "name": "LibreSprite",
+      "url": "https://libresprite.github.io/",
+      "groups": [
+        "raster"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-2.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Fork of Aseprite. Less advanced but excellent if you're looking for a more straightforward alternative.",
+      "keywords": [
+        "pixel art",
+        "sprites"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "snapseed",
+      "name": "Snapseed",
+      "url": "https://play.google.com/store/apps/details?id=com.niksoftware.snapseed",
+      "groups": [
+        "raster"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "ios",
+        "android"
+      ],
+      "description": "Google's photo editing app, known for its powerful yet easy-to-use tools.",
+      "keywords": [],
+      "links": [
+        {
+          "label": "App Store (iOS)",
+          "url": "https://apps.apple.com/us/app/snapseed-photo-editor/id439438619"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "affinity",
+      "name": "Affinity",
+      "url": "https://www.affinity.studio/",
+      "groups": [
+        "raster",
+        "vector"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Free, with paid options",
+      "platforms": [
+        "macos",
+        "windows"
+      ],
+      "description": "Professional creative suite for design and photo editing, free alternative to Illustrator & InDesign, with Canva AI integration.",
+      "keywords": [
+        "illustrator alternative",
+        "indesign alternative",
+        "photoshop alternative"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "thesvg",
+      "name": "theSVG",
+      "url": "https://thesvg.org/",
+      "groups": [
+        "vector"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Varies per logo",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "One of the larger free brand-logo SVG libraries, multiple variants per brand (color, mono, light, dark, wordmark), no attribution required.",
+      "keywords": [
+        "logos",
+        "brand icons",
+        "svg"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "vecteezy",
+      "name": "Vecteezy",
+      "url": "https://www.vecteezy.com/",
+      "groups": [
+        "vector"
+      ],
+      "type": "source",
+      "license": {
+        "name": "custom license",
+        "url": "https://www.vecteezy.com/licensing-agreement",
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Free tier is limited",
+      "platforms": [
+        "web"
+      ],
+      "description": "Stock images and vector assets/templates, free tier is limited but worth digging through.",
+      "keywords": [
+        "stock vectors",
+        "illustrations"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "platforms"
+      ]
+    },
+    {
+      "id": "flaticon",
+      "name": "Flaticon",
+      "url": "https://www.flaticon.com/",
+      "groups": [
+        "vector"
+      ],
+      "type": "source",
+      "license": {
+        "name": "custom license",
+        "url": "https://www.flaticon.com/legal",
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Free collection plus paid content",
+      "platforms": [
+        "web"
+      ],
+      "description": "Mostly paid vector content, but they have a free high-quality collection of icons, including monochrome brand icons.",
+      "keywords": [
+        "icons",
+        "pictograms"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "platforms"
+      ]
+    },
+    {
+      "id": "fontforge",
+      "name": "FontForge",
+      "url": "https://fontforge.org/en-US/",
+      "groups": [
+        "vector"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-3.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Free, open-source editor for building or modifying typefaces at the point/curve level.",
+      "keywords": [
+        "font editor",
+        "type design"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "graphite",
+      "name": "Graphite",
+      "url": "https://graphite.art/",
+      "groups": [
+        "vector"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Apache-2.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Early-stage open-source vector editor, node-based and non-destructive.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "vectorpea",
+      "name": "VectorPea",
+      "url": "https://www.vectorpea.com/",
+      "groups": [
+        "vector"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Illustrator alternative from the same developer as Photopea, opens AI, SVG and PDF files.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "inkscape",
+      "name": "Inkscape",
+      "url": "https://inkscape.org/",
+      "groups": [
+        "vector"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-2.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Free, open-source vector editor, similar to Illustrator.",
+      "keywords": [
+        "illustrator alternative",
+        "svg",
+        "vector"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "calligra-karbon",
+      "name": "Calligra Karbon",
+      "url": "https://apps.kde.org/calligra.karbon/",
+      "groups": [
+        "vector"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-2.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Free, open-source vector editor, similar to Inkscape.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "canva",
+      "name": "Canva",
+      "url": "https://www.canva.com/",
+      "groups": [
+        "vector"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Free, with paid options; requires an account",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "android",
+        "ios",
+        "ipad"
+      ],
+      "description": "Simple and fast design tool with a vast library of templates and assets.",
+      "keywords": [
+        "templates",
+        "social media",
+        "quick design"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "adobe-color",
+      "name": "Adobe Color",
+      "url": "https://color.adobe.com/",
+      "groups": [
+        "color"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "Needs an Adobe account to save",
+      "platforms": [
+        "web"
+      ],
+      "description": "Palette generator and library with direct Creative Cloud export, plus a large community-submitted library.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "coolors",
+      "name": "Coolors",
+      "url": "https://coolors.co/",
+      "groups": [
+        "color"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Fast color palette generator, with a large library of user-submitted palettes.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "color-hunt",
+      "name": "Color Hunt",
+      "url": "https://colorhunt.co/",
+      "groups": [
+        "color"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Curated collection of color palettes, with a focus on modern and trendy color combinations.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "colormind",
+      "name": "Colormind",
+      "url": "https://colormind.io/",
+      "groups": [
+        "color"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "AI palette generator trained on photography, film, and art datasets, lock in a color and it fills in the rest, or pull a palette straight from an uploaded image.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "color-hex",
+      "name": "Color Hex",
+      "url": "https://www.color-hex.com/",
+      "groups": [
+        "color"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "All-in-one color tool, shades, tints, RGB/CMYK percentages, and ready-to-copy CSS for backgrounds, text, borders, and shadows.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "huemint",
+      "name": "Huemint",
+      "url": "https://huemint.com/",
+      "groups": [
+        "color"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Color palette generator with templates to visualize color combinations in real use-cases.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "anygradient",
+      "name": "AnyGradient",
+      "url": "https://anygradient.com/",
+      "groups": [
+        "color"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Universal gradient generator with OKLCH & Display-P3 support.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "feralui-gradient-builder",
+      "name": "FeralUI Gradient Builder",
+      "url": "https://feralui.dev/gradients",
+      "groups": [
+        "color"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Palette preview software, with gradient studies across shape, backdrop, and colour.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "are-na",
+      "name": "are.na",
+      "url": "https://www.are.na/",
+      "groups": [
+        "moodboarding"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "",
+      "platforms": [
+        "web",
+        "ios"
+      ],
+      "description": "Algorithm-free platform for curating and sharing ideas.",
+      "keywords": [
+        "arena",
+        "curation",
+        "moodboard"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "cosmos",
+      "name": "Cosmos",
+      "url": "https://www.cosmos.so/",
+      "groups": [
+        "moodboarding"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Visual moodboarding tool, built around a searchable image grid with a color-based search tool.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "behance",
+      "name": "Behance",
+      "url": "https://www.behance.net/",
+      "groups": [
+        "moodboarding"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "description": "Adobe's portfolio platform, full project case studies across every design discipline.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "pinterest",
+      "name": "Pinterest",
+      "url": "https://www.pinterest.com/",
+      "groups": [
+        "moodboarding"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web",
+        "ios",
+        "android"
+      ],
+      "description": "The default moodboard tool, deep library but mid algorithm and ad-driven.",
+      "keywords": [
+        "inspiration",
+        "moodboard"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "branding-styleguides",
+      "name": "Branding Styleguides",
+      "url": "https://brandingstyleguides.com/",
+      "groups": [
+        "moodboarding"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Archive of real brand guideline documents pulled from actual companies.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "fonts-in-use",
+      "name": "Fonts in Use",
+      "url": "https://fontsinuse.com/",
+      "groups": [
+        "moodboarding"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Archive of typefaces spotted in real design work, searchable by font or by industry.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "savee",
+      "name": "Savee",
+      "url": "https://savee.com/",
+      "groups": [
+        "moodboarding"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Minimalist, ad-free image curation, another alternative to Pinterest, similar to Cosmos.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "pureref",
+      "name": "PureRef",
+      "url": "https://www.pureref.com/",
+      "groups": [
+        "moodboarding"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "custom license",
+        "url": "https://www.pureref.com/license.php",
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Pay what you want, free for personal use",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Lightweight reference board, keeps pinned images on top of other windows.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": []
+    },
+    {
+      "id": "anytype",
+      "name": "Anytype",
+      "url": "https://anytype.io/",
+      "groups": [
+        "moodboarding"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "custom license",
+        "url": "https://github.com/krvns/anytype-everything-app/blob/main/LICENSE.md",
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web",
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "description": "Free knowledge management tool.",
+      "keywords": [
+        "notes",
+        "pkm",
+        "notion alternative"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "platforms"
+      ]
+    },
+    {
+      "id": "logseq",
+      "name": "Logseq",
+      "url": "https://logseq.com/",
+      "groups": [
+        "moodboarding"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "AGPL-3.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "description": "Another free, open-source knowledge management tool, self-hostable.",
+      "keywords": [
+        "notes",
+        "outliner",
+        "pkm"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "kdenlive",
+      "name": "Kdenlive",
+      "url": "https://www.kdenlive.org/",
+      "groups": [
+        "video"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-3.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Video editor, similar to Adobe Premiere.",
+      "keywords": [
+        "premiere alternative",
+        "video editing"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "url": "https://www.blender.org/",
+      "groups": [
+        "video",
+        "3d"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-2.0+, various",
+        "url": "https://github.com/blender/blender/tree/main/doc/license",
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "3D software at its core, but its node-based compositor and Grease Pencil tools make it a genuinely usable free alternative to After Effects for motion graphics.",
+      "keywords": [
+        "3d modeling",
+        "animation",
+        "grease pencil",
+        "compositor"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "davinci-resolve",
+      "name": "DaVinci Resolve",
+      "url": "https://www.blackmagicdesign.com/products/davinciresolve",
+      "groups": [
+        "video"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Free tier, paid Studio version",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Closed-source video editor, similar to Adobe Premiere.",
+      "keywords": [
+        "premiere alternative",
+        "color grading",
+        "video editing"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "glaxnimate",
+      "name": "Glaxnimate",
+      "url": "https://glaxnimate.org/",
+      "groups": [
+        "video"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-3.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Vector animation tool built around the Lottie format, closer to a free After Effects plus Bodymovin workflow than to Adobe Animate.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "freesound",
+      "name": "Freesound",
+      "url": "https://freesound.org/",
+      "groups": [
+        "audio"
+      ],
+      "type": "source",
+      "license": {
+        "name": "custom license",
+        "url": "https://freesound.org/help/tos_web/",
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Collaborative collection of sound effects and field recordings, searchable by license type.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "platforms"
+      ]
+    },
+    {
+      "id": "free-sfx",
+      "name": "Free SFX",
+      "url": "https://freesfx.co.uk/",
+      "groups": [
+        "audio"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Custom license",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Free sound effects for all situations, searchable by category.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "audacity",
+      "name": "Audacity",
+      "url": "https://www.audacityteam.org/",
+      "groups": [
+        "audio"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-2.0+",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Audio recording & editing software.",
+      "keywords": [
+        "audio editor",
+        "recording"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "8-bit-composer",
+      "name": "8 Bit Composer",
+      "url": "https://8bitcomposer.com/",
+      "groups": [
+        "audio"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "8-bit chiptune music tracker.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing"
+      ]
+    },
+    {
+      "id": "lmms",
+      "name": "LMMS",
+      "url": "https://lmms.io/",
+      "groups": [
+        "audio"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-2.0+",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux"
+      ],
+      "description": "Digital audio workstation.",
+      "keywords": [
+        "daw",
+        "music production"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "chiptone",
+      "name": "ChipTone",
+      "url": "https://sfbgames.itch.io/chiptone",
+      "groups": [
+        "audio"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Freeware (outputs CC0)",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "macos",
+        "web",
+        "windows"
+      ],
+      "description": "Procedural retro sound effect generator.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": []
+    },
+    {
+      "id": "twinmotion",
+      "name": "Twinmotion",
+      "url": "https://www.twinmotion.com/",
+      "groups": [
+        "3d"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Free for revenue under $1M/year; requires an Epic account",
+      "platforms": [
+        "macos",
+        "windows"
+      ],
+      "description": "Real-time 3D visualization software powered by Unreal Engine.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "blockbench",
+      "name": "Blockbench",
+      "url": "https://blockbench.net/",
+      "groups": [
+        "3d"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-3.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "web",
+        "windows"
+      ],
+      "description": "3D modeler for creating voxel art, suitable for Minecraft models.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "materialize",
+      "name": "Materialize",
+      "url": "https://boundingboxsoftware.com/materialize/",
+      "groups": [
+        "3d"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-3.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows"
+      ],
+      "description": "Turns a single image into normal, height, and AO maps for PBR materials.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "kenney",
+      "name": "Kenney",
+      "url": "https://kenney.nl/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "source",
+      "license": {
+        "name": "CC0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Over 30,000 game assets (sprites, UI, audio, fonts), about as close to a default starting point as free game asset libraries get.",
+      "keywords": [
+        "sprites",
+        "assets",
+        "tilesets"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "platforms"
+      ]
+    },
+    {
+      "id": "opengameart",
+      "name": "OpenGameArt",
+      "url": "https://opengameart.org/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "source",
+      "license": {
+        "name": "Mixed, check each asset",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Community-submitted game art and audio, check each asset's license individually since it isn't uniformly CC0 like Kenney.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "platforms"
+      ]
+    },
+    {
+      "id": "love",
+      "name": "LÖVE",
+      "url": "https://love2d.org/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "framework",
+      "license": {
+        "name": "zlib, open-source",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Lightweight 2D game framework built around Lua, code-only with no built-in editor, popular for jams and small prototypes thanks to its minimal learning curve.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "phaser",
+      "name": "Phaser",
+      "url": "https://phaser.io/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "framework",
+      "license": {
+        "name": "MIT, open-source, JS/TS",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "web"
+      ],
+      "description": "Free 2D framework for browser games, worth a look if you want a link-and-play web build instead of a native install.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "godot",
+      "name": "Godot",
+      "url": "https://godotengine.org/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "engine",
+      "license": {
+        "name": "MIT, open-source",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Free general-purpose engine for 2D and 3D, node-based scene system, scriptable in GDScript or C#, closest free alternative to Unity.",
+      "keywords": [
+        "game engine",
+        "gdscript",
+        "2d",
+        "3d"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "unity",
+      "name": "Unity",
+      "url": "https://unity.com/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "engine",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Free under $200K/yr revenue or funding, paid tiers above",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Closed-source industry-standard engine for 2D and 3D, C# scripting, huge asset store and community.",
+      "keywords": [
+        "game engine",
+        "c#"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "gamemaker",
+      "name": "GameMaker",
+      "url": "https://gamemaker.io/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "engine",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Free for non-commercial use, $99.99 one-time for commercial",
+      "platforms": [
+        "macos",
+        "windows"
+      ],
+      "description": "2D-focused engine with drag-and-drop plus its own GML scripting language, behind Undertale, Hotline Miami, and Hyper Light Drifter.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "gdevelop",
+      "name": "GDevelop",
+      "url": "https://gdevelop.io/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "engine",
+      "license": {
+        "name": "MIT, open-source",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "web",
+        "windows"
+      ],
+      "description": "No-code, event-based 2D engine, a gentler starting point than Godot or GameMaker if you'd rather not write code yet.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "construct-3",
+      "name": "Construct 3",
+      "url": "https://www.construct.net/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "engine",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Limited free tier, paid options",
+      "platforms": [
+        "web"
+      ],
+      "description": "Browser-based no-code 2D engine, drag-and-drop event sheets, free tier caps events and layers, full access needs a subscription.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "defold",
+      "name": "Defold",
+      "url": "https://defold.com/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "engine",
+      "license": {
+        "name": "Defold License (source-available)",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Lightweight 2D-focused engine built by King, Lua scripting, tiny builds, strong for mobile.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": []
+    },
+    {
+      "id": "tiled",
+      "name": "Tiled",
+      "url": "https://www.mapeditor.org/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "GPL-2.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Engine-agnostic tile map editor, worth having regardless of which engine you land on for room-based or tile-based level design.",
+      "keywords": [
+        "tilemap",
+        "level editor"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "ldtk",
+      "name": "LDtk",
+      "url": "https://ldtk.io/",
+      "groups": [
+        "game-making"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "MIT, open-source",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Entity-driven level editor from the Dead Cells designer, complements Tiled rather than replacing it, better suited to placed objects than large tile grids.",
+      "keywords": [
+        "tilemap",
+        "level editor"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "wps-office",
+      "name": "WPS Office",
+      "url": "https://www.wps.com/",
+      "groups": [
+        "other"
+      ],
+      "type": "office",
+      "license": {
+        "name": "custom license",
+        "url": "https://www.wps.com/eula/",
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "Free with ads, paid options",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "AI-powered office suite, available on all platforms.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "pricing"
+      ]
+    },
+    {
+      "id": "libreoffice",
+      "name": "LibreOffice",
+      "url": "https://www.libreoffice.org/",
+      "groups": [
+        "other"
+      ],
+      "type": "office",
+      "license": {
+        "name": "MPL-2.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Office suite.",
+      "keywords": [
+        "word",
+        "excel",
+        "powerpoint",
+        "office suite"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing"
+      ]
+    },
+    {
+      "id": "google-drive",
+      "name": "Google Drive",
+      "url": "https://drive.google.com/",
+      "groups": [
+        "other"
+      ],
+      "type": "office",
+      "license": {
+        "name": "Proprietary",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "freemium",
+      "pricing_note": "",
+      "platforms": [
+        "web",
+        "android",
+        "ios"
+      ],
+      "description": "Slides, Docs, and Sheets are nice alternatives to Microsoft Office.",
+      "keywords": [],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "zen-browser",
+      "name": "Zen Browser",
+      "url": "https://zen-browser.app/",
+      "groups": [
+        "other"
+      ],
+      "type": "browser",
+      "license": {
+        "name": "MPL-2.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "linux",
+        "macos",
+        "windows"
+      ],
+      "description": "Based on Firefox, workflow might seem a bit odd at first but once you get the hang of it, you don't go back from it (DRM support is broken on windows).",
+      "keywords": [
+        "browser"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "firefox",
+      "name": "Firefox",
+      "url": "https://www.firefox.com/",
+      "groups": [
+        "other"
+      ],
+      "type": "browser",
+      "license": {
+        "name": "MPL-2.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "description": "Privacy and freedom first web browser, faster and lighter engine than chromium browsers.",
+      "keywords": [
+        "browser"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "brave-browser",
+      "name": "Brave Browser",
+      "url": "https://brave.com/",
+      "groups": [
+        "other"
+      ],
+      "type": "browser",
+      "license": {
+        "name": "MPL-2.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "android",
+        "ios"
+      ],
+      "description": "Privacy-focused web browser, blocks ads and trackers by default.",
+      "keywords": [
+        "browser"
+      ],
+      "links": [],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "platforms"
+      ]
+    },
+    {
+      "id": "ublock-origin",
+      "name": "uBlock Origin",
+      "url": "https://addons.mozilla.org/firefox/addon/ublock-origin/",
+      "groups": [
+        "other"
+      ],
+      "type": "extension",
+      "license": {
+        "name": "GPL-3.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "browser-extension"
+      ],
+      "description": "Content blocker, efficient and highly configurable. Chrome only gets uBlock Origin Lite since Google pulled the full version after the Manifest V3 switch, noticeably weaker filtering than the Firefox version.",
+      "keywords": [
+        "adblock",
+        "ad blocker"
+      ],
+      "links": [
+        {
+          "label": "Chromium",
+          "url": "https://chromewebstore.google.com/detail/ublock-origin-lite/ddkjiahejlhfcafbddmgiahcphecmpfh"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "privacy-badger",
+      "name": "Privacy Badger",
+      "url": "https://addons.mozilla.org/firefox/addon/privacy-badger17/",
+      "groups": [
+        "other"
+      ],
+      "type": "extension",
+      "license": {
+        "name": "GPL-3.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "browser-extension"
+      ],
+      "description": "From the EFF, learns to block invisible trackers automatically based on their behavior rather than relying on a manual filter list.",
+      "keywords": [],
+      "links": [
+        {
+          "label": "Chromium",
+          "url": "https://chromewebstore.google.com/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "decentraleyes",
+      "name": "Decentraleyes",
+      "url": "https://addons.mozilla.org/firefox/addon/decentraleyes/",
+      "groups": [
+        "other"
+      ],
+      "type": "extension",
+      "license": {
+        "name": "MPL-2.0",
+        "url": null,
+        "commercial_use": true
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "browser-extension"
+      ],
+      "description": "Serves common libraries (jQuery, etc.) locally instead of fetching them from third-party CDNs, blocking a common tracking vector without breaking sites that depend on those CDNs.",
+      "keywords": [],
+      "links": [
+        {
+          "label": "Chromium",
+          "url": "https://chromewebstore.google.com/detail/decentraleyes/ldpochfccmkkmhdbclfhpagapcfdljkj"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license",
+        "pricing",
+        "platforms"
+      ]
+    },
+    {
+      "id": "dont-track-me-google",
+      "name": "Don't track me Google",
+      "url": "https://addons.mozilla.org/firefox/addon/dont-track-me-google1/",
+      "groups": [
+        "other"
+      ],
+      "type": "extension",
+      "license": {
+        "name": "Chromium",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "browser-extension"
+      ],
+      "description": "Strips Google's click-tracking redirect wrapper from Search and Maps links, so clicking or copying a result gives you the real URL directly.",
+      "keywords": [],
+      "links": [
+        {
+          "label": "Chromium",
+          "url": "https://chromewebstore.google.com/detail/dont-track-me-google/gdbofhhdmcladcmmfjolgndfkpobecpg"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "pricing",
+        "platforms"
+      ]
+    }
+  ]
+}
