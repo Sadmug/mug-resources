@@ -39,6 +39,10 @@
     {
       "id": "other",
       "label": "Uncategorized/Unrelated"
+    },
+    {
+      "id": "artcraft",
+      "label": "ArtCraft"
     }
   ],
   "types": [
@@ -154,7 +158,7 @@
       "platforms": [
         "web"
       ],
-      "description": "One of the first free, open-source web font foundries, small library but well-crafted.",
+      "description": "An open-source digital type foundry with a curated catalog of display and text typefaces. Each font is hand-crafted and free for personal and commercial projects, focusing on quality over library size.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -181,7 +185,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Open-source, collectively designed contemporary Italian typefaces.",
+      "description": "An open-source type collective designing contemporary Italian typefaces. A rotating group of designers builds and releases experimental and display fonts collaboratively, free for personal and commercial use.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -208,7 +212,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Free, open-source web font library, huge but hit-or-miss on quality, also hosts Material Symbols, a solid icon set.",
+      "description": "A massive directory of open-source web fonts and variable typefaces, alongside the Material Symbols icon set. Quality across the catalogue is hit-or-miss, but it remains the most widely supported font repository on the web.",
       "keywords": [
         "typefaces",
         "web fonts"
@@ -238,7 +242,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Curated free fonts from Indian Type Foundry, generally more polished than most free libraries.",
+      "description": "A curated typography service from Indian Type Foundry offering professional-grade fonts at no cost. The catalog is smaller than general repositories, but individual typefaces are generally more polished and technically consistent.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -265,7 +269,7 @@
       "platforms": [
         "web"
       ],
-      "description": "French, community-run foundry, leans experimental and multilingual.",
+      "description": "A French, community-run type foundry dedicated to free and open-source typography. Its catalog leans heavily toward experimental, expressive display type and multilingual scripts, developed collaboratively by independent designers.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -292,7 +296,7 @@
       "platforms": [
         "web"
       ],
-      "description": "French collective distributing inclusive, non-binary and post-binary typefaces.",
+      "description": "A Franco-Belgian collective creating and distributing inclusive, non-binary and post-binary typefaces. The project explores typographic glyphs and ligatures designed specifically for gender-inclusive French and multilingual writing.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -319,7 +323,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Brussels-based collective building libre fonts and tools, DIY and workshop-driven.",
+      "description": "A Brussels-based graphic design collective building libre fonts and publishing tools. Its catalog is shaped by public workshops, digital typography experiments, and a strict commitment to free software workflows.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -346,7 +350,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Types your text out across every font installed on your system at once, for quick comparison.",
+      "description": "A browser-based font preview tool that renders custom text across every font installed on your computer simultaneously. It helps you compare weights and letterforms quickly without loading fonts into design software.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -374,7 +378,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Layered PSD mockups organized by category, packaging, business cards, apparel, outdoor signage, more realistic than generic template packs.",
+      "description": "A collection of layered PSD mockups organized by category, including packaging, business cards, apparel, and signage. The templates use smart objects and feature more realistic lighting and staging than generic template packs.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -401,7 +405,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Mainly for 3D work but they offer a wide range of textures that can be used for other purposes.",
+      "description": "A public library of scan-based PBR textures, HDRIs, and 3D models. While built primarily for 3D workflows, its high-resolution texture maps and surface photos work equally well for 2D background work and compositing.",
       "keywords": [
         "hdri",
         "pbr",
@@ -433,7 +437,7 @@
       "platforms": [
         "web"
       ],
-      "description": "PBR materials, more focused purely on textures than Poly Haven.",
+      "description": "A dedicated repository of public-domain PBR material scans and procedural surface maps. It focuses strictly on seamless textures rather than full 3D assets, providing complete PBR map sets with diffuse, normal, roughness, and displacement channels.",
       "keywords": [
         "pbr",
         "textures",
@@ -464,7 +468,7 @@
       "platforms": [
         "web"
       ],
-      "description": "A wide range of high-quality textures, leaning grunge, paper, and print-decay, photographic overlays rather than the PBR materials Poly Haven and Ambient CG use.",
+      "description": "A library of high-resolution photographic textures, overlays, and atmospheric effects. The collection leans toward paper grain, print decay, and grunge surfaces, designed as practical design overlays rather than 3D PBR materials.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -490,7 +494,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Hand-picked collection of out-of-copyright works.",
+      "description": "A curated online archive of out-of-copyright artworks, historical illustrations, and vintage photography. Assets are hand-picked from museum and library digitization programs, available as high-resolution scans for unrestricted use.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -516,7 +520,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Collection of items digitized from The New York Public Library's collections.",
+      "description": "An extensive digital archive of prints, photographs, maps, manuscripts, and illustrations digitized from The New York Public Library collections. It offers high-resolution downloads of historical visual material in the public domain.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -542,7 +546,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Collection of textures with css presets.",
+      "description": "A web utility providing seamless, transparent tileable textures alongside ready-to-use CSS background presets. You can preview texture patterns live over custom background colors and copy the resulting CSS snippet directly.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -568,10 +572,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Free, open-source raster editor, focused on digital painting and illustration.",
+      "description": "A professional raster graphics editor tailored specifically for digital painters, concept artists, and illustrators. It features advanced brush engines, stabilizer tools, layer management, color management with CMYK support, and frame-by-frame 2D animation.",
       "keywords": [
         "digital painting",
         "drawing",
@@ -601,7 +606,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Photoshop alternative, opens PSD and other native formats.",
+      "description": "A browser-based raster graphics editor that serves as an alternative to Photoshop. It runs entirely inside the browser, supports PSD, XCF, Sketch, and XD formats, and reproduces familiar layer, adjustment, and masking workflows.",
       "keywords": [
         "photoshop alternative",
         "psd",
@@ -631,10 +636,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Free, open-source RAW photo processor.",
+      "description": "A non-destructive raw photo developer designed for in-depth photographic post-processing. It provides an advanced 32-bit floating-point processing pipeline, demosaicing algorithms, detailed color grading, and lens aberration correction.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -659,10 +665,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Free, open-source raster editor, similar to Photoshop.",
+      "description": "An extensible raster graphics editor for image manipulation, photo retouching, and graphic design. It provides comprehensive layer management, customizable brushes, selection tools, and scripting support across major operating systems.",
       "keywords": [
         "photoshop alternative",
         "photo editing"
@@ -690,10 +697,11 @@
       "pricing_note": "Buy a key, or build the source yourself for free",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Pixel-art editor. Buy a one-time key to support the developer, or build the source yourself for free.",
+      "description": "A dedicated sprite and pixel-art editor built for game artists and animators. It features timeline-based animation, onion skinning, custom color palettes, and tilemap modes. Precompiled binaries require a license, but the source code is freely compilable.",
       "keywords": [
         "pixel art",
         "sprites",
@@ -731,10 +739,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Fork of Aseprite. Less advanced but excellent if you're looking for a more straightforward alternative.",
+      "description": "A community fork of Aseprite maintained from its last open-source release. While it lacks some of the newer upstream features, it offers a reliable and straightforward pixel-art editor with frame animation and layer support.",
       "keywords": [
         "pixel art",
         "sprites"
@@ -764,7 +773,7 @@
         "ios",
         "android"
       ],
-      "description": "Google's photo editing app, known for its powerful yet easy-to-use tools.",
+      "description": "A mobile photo editor developed by Google featuring professional-level editing tools in an accessible touch interface. It includes selective adjustment brushes, curves, perspective correction, healing tools, and non-destructive raw file editing.",
       "keywords": [],
       "links": [
         {
@@ -799,7 +808,7 @@
         "macos",
         "windows"
       ],
-      "description": "Professional creative suite for design and photo editing, free alternative to Illustrator & InDesign, with Canva AI integration.",
+      "description": "A professional creative suite covering vector illustration, photo retouching, and desktop publishing. Built as a free alternative to Illustrator & InDesign with Canva AI integration, it operates with a one-time purchase and no subscription.",
       "keywords": [
         "illustrator alternative",
         "indesign alternative",
@@ -829,7 +838,7 @@
       "platforms": [
         "web"
       ],
-      "description": "One of the larger free brand-logo SVG libraries, multiple variants per brand (color, mono, light, dark, wordmark), no attribution required.",
+      "description": "A comprehensive library of company and brand logos provided in scalable SVG format. Each entry includes multiple variations, including color, monochrome, dark mode, and isolated wordmarks, with no attribution required for downloads.",
       "keywords": [
         "logos",
         "brand icons",
@@ -860,7 +869,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Stock images and vector assets/templates, free tier is limited but worth digging through.",
+      "description": "A marketplace of vector illustrations, design templates, and stock graphics. While the free tier requires attribution and has download limits, the library is extensive and worth digging through for UI elements, backgrounds, and icons.",
       "keywords": [
         "stock vectors",
         "illustrations"
@@ -889,7 +898,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Mostly paid vector content, but they have a free high-quality collection of icons, including monochrome brand icons.",
+      "description": "A large searchable repository of vector icons and stickers across numerous design styles. While much of the platform is behind a paid subscription, it provides a sizable free collection of high-quality interface icons and monochrome brand marks.",
       "keywords": [
         "icons",
         "pictograms"
@@ -917,10 +926,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Free, open-source editor for building or modifying typefaces at the point/curve level.",
+      "description": "A dedicated typeface editor and converter for creating and modifying fonts at the vector outline level. It supports Bézier curve editing, kerning tables, OpenType feature programming, and batch conversion across major font formats.",
       "keywords": [
         "font editor",
         "type design"
@@ -949,7 +959,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Early-stage open-source vector editor, node-based and non-destructive.",
+      "description": "An early-stage vector graphics and raster compositing editor built around non-destructive, node-based procedural workflows. It combines traditional canvas drawing tools with procedural graph generation directly inside desktop or browser environments.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -975,7 +985,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Illustrator alternative from the same developer as Photopea, opens AI, SVG and PDF files.",
+      "description": "An in-browser vector graphics editor from the creator of Photopea designed as a lightweight alternative to Illustrator. It opens and exports AI, SVG, and PDF files directly in the browser with familiar pen, path, and layer tools.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1000,10 +1010,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Free, open-source vector editor, similar to Illustrator.",
+      "description": "A professional-grade vector illustration program built natively on the W3C SVG standard. It provides comprehensive path manipulation, node editing, text formatting, boolean operations, and an active ecosystem of extensions for technical and artistic illustration.",
       "keywords": [
         "illustrator alternative",
         "svg",
@@ -1032,10 +1043,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Free, open-source vector editor, similar to Inkscape.",
+      "description": "A component of the KDE Calligra office and creative suite for vector drawing and page design. It offers a straightforward interface for working with paths, gradient fills, text layouts, and shapes, making it a simple alternative to complex illustration suites.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1066,7 +1078,7 @@
         "ios",
         "ipad"
       ],
-      "description": "Simple and fast design tool with a vast library of templates and assets.",
+      "description": "A template-driven graphic design platform built for quickly producing social media graphics, presentations, and marketing collateral. It provides an extensive drag-and-drop asset library, collaborative editing, and simplified layout tools that require no technical design experience.",
       "keywords": [
         "templates",
         "social media",
@@ -1097,7 +1109,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Palette generator and library with direct Creative Cloud export, plus a large community-submitted library.",
+      "description": "A color palette generator and exploration platform built around traditional color harmony rules. It includes accessibility contrast checkers, color blindness simulators, a searchable community library, and direct export options into Adobe Creative Cloud applications.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1125,7 +1137,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Fast color palette generator, with a large library of user-submitted palettes.",
+      "description": "A fast, keyboard-driven color scheme generator for designers. You can lock chosen hues and tap spacebar to generate harmonized palettes, extract colors from uploaded photos, check contrast ratios, and browse thousands of community-submitted palettes.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1153,7 +1165,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Curated collection of color palettes, with a focus on modern and trendy color combinations.",
+      "description": "A curated feed of four-color palettes hand-picked for web and graphic designers. It focuses on trendy, harmonious color combinations categorized by mood and theme, allowing users to browse, like, and copy hex codes instantly.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1181,7 +1193,7 @@
       "platforms": [
         "web"
       ],
-      "description": "AI palette generator trained on photography, film, and art datasets, lock in a color and it fills in the rest, or pull a palette straight from an uploaded image.",
+      "description": "A color scheme generator powered by deep learning trained on color styles from photography, cinema, and classic art. You can lock specific colors while the model predicts cohesive complementary shades, or extract balanced palettes from uploaded images.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1209,7 +1221,7 @@
       "platforms": [
         "web"
       ],
-      "description": "All-in-one color tool, shades, tints, RGB/CMYK percentages, and ready-to-copy CSS for backgrounds, text, borders, and shadows.",
+      "description": "A quick-lookup color reference tool providing detailed breakdown data for any hex code. It generates monochromatic shades, tints, complementary harmonies, color space conversions, and copy-paste CSS code snippets for text, borders, and shadows.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1237,7 +1249,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Color palette generator with templates to visualize color combinations in real use-cases.",
+      "description": "A machine learning color palette generator that tests color schemes against realistic UI, illustration, and branding mockups. Instead of showing abstract swatches, it previews hierarchy and contrast in real time on websites, posters, and graphic elements.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1265,7 +1277,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Universal gradient generator with OKLCH & Display-P3 support.",
+      "description": "A modern CSS gradient editor supporting perceptual color spaces such as OKLCH and Display-P3. It prevents muddy middle tones in multi-stop blends and exports clean CSS code optimized for modern high-gamut displays.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1293,7 +1305,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Palette preview software, with gradient studies across shape, backdrop, and colour.",
+      "description": "An interactive gradient preview and design tool for studying how color ramps behave across varying geometric shapes and backdrops. It allows designers to test lighting illusions, surface curvature, and color transitions under controlled visual conditions.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1322,7 +1334,7 @@
         "web",
         "ios"
       ],
-      "description": "Algorithm-free platform for curating and sharing ideas.",
+      "description": "A collaborative research and curation platform free of algorithms, advertisements, and social metrics. Users organize visual bookmarks, text snippets, links, and PDFs into open channels, making it popular for conceptual design and collective research.",
       "keywords": [
         "arena",
         "curation",
@@ -1354,7 +1366,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Visual moodboarding tool, built around a searchable image grid with a color-based search tool.",
+      "description": "A visual curation and bookmarking tool structured around an infinite, minimalist image grid. It features color-based filtering and tag clustering, offering a clean, distraction-free environment for gathering design inspiration and building moodboards.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1384,7 +1396,7 @@
         "ios",
         "android"
       ],
-      "description": "Adobe's portfolio platform, full project case studies across every design discipline.",
+      "description": "Adobe's creative showcase platform where professionals share detailed project case studies across branding, illustration, UI design, and photography. It serves as both a public portfolio hub and a comprehensive directory for discovering contemporary design work.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1414,7 +1426,7 @@
         "ios",
         "android"
       ],
-      "description": "The default moodboard tool, deep library but mid algorithm and ad-driven.",
+      "description": "The most widely used visual discovery and moodboarding platform, offering an immense catalog of images and ideas. While its algorithmic feed can be repetitive and heavily ad-driven, its collaborative boards and visual search remain standard for collecting references.",
       "keywords": [
         "inspiration",
         "moodboard"
@@ -1445,7 +1457,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Archive of real brand guideline documents pulled from actual companies.",
+      "description": "A specialized digital archive collecting authentic brand guidelines, style manuals, and design systems from established companies worldwide. It is a practical reference for identity designers studying logo usage rules, typography hierarchies, and corporate design standards.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1473,7 +1485,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Archive of typefaces spotted in real design work, searchable by font or by industry.",
+      "description": "A public typography archive documenting fonts used in real-world graphic design projects, book covers, packaging, and posters. The index is searchable by typeface, format, historical period, and industry, providing historical and practical typographic context.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1501,7 +1513,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Minimalist, ad-free image curation, another alternative to Pinterest, similar to Cosmos.",
+      "description": "A minimalist, ad-free visual bookmarking platform built specifically for designers and art directors. Like Cosmos, it serves as an alternative to Pinterest with a clean, image-first interface, browser extension capture, and zero algorithmic clutter.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1531,7 +1543,7 @@
         "macos",
         "windows"
       ],
-      "description": "Lightweight reference board, keeps pinned images on top of other windows.",
+      "description": "A lightweight standalone desktop utility for collecting and arranging reference images on an infinite canvas. It features a borderless window that stays pinned on top of painting or 3D applications, with minimal memory overhead.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1560,7 +1572,7 @@
         "android",
         "ios"
       ],
-      "description": "Free knowledge management tool.",
+      "description": "A local-first, privacy-focused knowledge management and note-taking application built on peer-to-peer architecture. It organizes notes, documents, and databases into customizable relational objects that remain encrypted and fully accessible offline.",
       "keywords": [
         "notes",
         "pkm",
@@ -1594,7 +1606,7 @@
         "android",
         "ios"
       ],
-      "description": "Another free, open-source knowledge management tool, self-hostable.",
+      "description": "A privacy-first, open-source outliner and knowledge base that stores notes locally as plain Markdown or Org-mode files. It organizes ideas into a bi-directional knowledge graph with daily journals, task tracking, and flashcards.",
       "keywords": [
         "notes",
         "outliner",
@@ -1625,10 +1637,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Video editor, similar to Adobe Premiere.",
+      "description": "An open-source non-linear video editor built on the MLT framework and KDE libraries. It supports multitrack timeline editing, color grading, audio mixing, proxy clips, and a wide variety of video formats as a free alternative to Premiere.",
       "keywords": [
         "premiere alternative",
         "video editing"
@@ -1657,10 +1670,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "3D software at its core, but its node-based compositor and Grease Pencil tools make it a genuinely usable free alternative to After Effects for motion graphics.",
+      "description": "A comprehensive open-source 3D creation suite that doubles as a powerful motion graphics tool. While designed primarily for 3D modeling and animation, its node-based compositor and Grease Pencil vector tools make it a capable free alternative to After Effects.",
       "keywords": [
         "3d modeling",
         "animation",
@@ -1693,7 +1707,7 @@
         "macos",
         "windows"
       ],
-      "description": "Closed-source video editor, similar to Adobe Premiere.",
+      "description": "An industry-standard non-linear video editing suite renowned for advanced color grading and digital audio post-production. The free version combines editing, Fusion visual effects, and Fairlight audio mixing into a complete production studio.",
       "keywords": [
         "premiere alternative",
         "color grading",
@@ -1722,10 +1736,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Vector animation tool built around the Lottie format, closer to a free After Effects plus Bodymovin workflow than to Adobe Animate.",
+      "description": "A lightweight vector animation editor designed for exporting animations to web and mobile formats like Lottie and animated SVG. Its timeline and shape-tweening workflow functions closer to a free After Effects and Bodymovin setup than to traditional Adobe Animate.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1751,7 +1766,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Collaborative collection of sound effects and field recordings, searchable by license type.",
+      "description": "A collaborative online database of audio snippets, sound effects, instrument samples, and ambient field recordings. All sounds are uploaded by creators and indexed with detailed tags, acoustic descriptions, and filterable Creative Commons licenses.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1777,7 +1792,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Free sound effects for all situations, searchable by category.",
+      "description": "A sound effect library offering royalty-free audio tracks and foley clips across diverse categories. Users can preview and download audio for games, video projects, and multimedia productions, though commercial usage requires attribution.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1804,9 +1819,10 @@
       "platforms": [
         "windows",
         "macos",
-        "linux"
+        "linux",
+        "bsd"
       ],
-      "description": "Audio recording & editing software.",
+      "description": "An open-source, multi-track audio recorder and waveform editor. It is widely used for podcast production, voiceovers, audio restoration, and audio format conversion, offering essential effects, spectral analysis, and broad VST plugin support.",
       "keywords": [
         "audio editor",
         "recording"
@@ -1836,7 +1852,7 @@
       "platforms": [
         "web"
       ],
-      "description": "8-bit chiptune music tracker.",
+      "description": "A browser-based chiptune synthesizer and music tracker modeled after classic 8-bit sound chips. It allows composers to sequence retro melodies and sound effects directly in the browser across multiple voice channels.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1863,9 +1879,10 @@
       "platforms": [
         "windows",
         "macos",
-        "linux"
+        "linux",
+        "bsd"
       ],
-      "description": "Digital audio workstation.",
+      "description": "A cross-platform digital audio workstation designed for producing music and sequencing beats. It features a tracker-style song editor, piano roll, built-in synthesizers, sound effect plugins, and support for VST instruments and SoundFont soundbanks.",
       "keywords": [
         "daw",
         "music production"
@@ -1897,7 +1914,7 @@
         "web",
         "windows"
       ],
-      "description": "Procedural retro sound effect generator.",
+      "description": "A browser-based procedural sound generator built for synthesizing retro 8-bit sound effects for video games. It features preset buttons for jumps, lasers, explosions, and coin pickups, with intuitive sliders for fine-tuning frequencies and pitch bends.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1922,7 +1939,7 @@
         "macos",
         "windows"
       ],
-      "description": "Real-time 3D visualization software powered by Unreal Engine.",
+      "description": "A real-time architectural visualization tool powered by Unreal Engine. It allows architects and designers to transform CAD and BIM models into photorealistic stills, panoramas, and immersive walkthroughs with dynamic lighting, seasons, and animated foliage.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1951,7 +1968,7 @@
         "web",
         "windows"
       ],
-      "description": "3D modeler for creating voxel art, suitable for Minecraft models.",
+      "description": "A specialized low-poly and voxel 3D modeling program tailored for pixel-art textures and blocky game assets. It includes dedicated workflows for Minecraft entity modeling, skeletal rigging, frame animation, and export to popular game engines.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -1977,7 +1994,7 @@
       "platforms": [
         "windows"
       ],
-      "description": "Turns a single image into normal, height, and AO maps for PBR materials.",
+      "description": "A standalone utility for generating complete PBR texture map sets from a single source photograph. It creates height, normal, metallic, roughness, and ambient occlusion maps with interactive preview controls to adjust surface depth and edge bevels.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -2003,7 +2020,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Over 30,000 game assets (sprites, UI, audio, fonts), about as close to a default starting point as free game asset libraries get.",
+      "description": "An extensive public repository containing tens of thousands of modular game assets, including 2D sprites, 3D models, UI kits, audio clips, and fonts. Released under CC0, it is the standard starting point for game jam prototypes and indie projects.",
       "keywords": [
         "sprites",
         "assets",
@@ -2033,7 +2050,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Community-submitted game art and audio, check each asset's license individually since it isn't uniformly CC0 like Kenney.",
+      "description": "A community portal hosting free 2D sprites, 3D models, music tracks, and sound effects for game developers. Because submissions come from independent contributors, you must check each asset's license individually since it isn't uniformly CC0 like Kenney.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -2058,10 +2075,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Lightweight 2D game framework built around Lua, code-only with no built-in editor, popular for jams and small prototypes thanks to its minimal learning curve.",
+      "description": "A lightweight 2D game framework built around Lua, providing fast execution without a graphical editor. Its minimal learning curve and clean API make it a popular framework for rapid prototyping, game jams, and small 2D indie titles.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -2087,7 +2105,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Free 2D framework for browser games, worth a look if you want a link-and-play web build instead of a native install.",
+      "description": "A fast open-source 2D game framework designed for HTML5 browser games using Canvas and WebGL rendering. It is worth a look if you want a link-and-play web build instead of a native install.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -2112,10 +2130,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Free general-purpose engine for 2D and 3D, node-based scene system, scriptable in GDScript or C#, closest free alternative to Unity.",
+      "description": "A feature-rich open-source game engine supporting both dedicated 2D workflows and modern 3D rendering. It uses a flexible node-based scene hierarchy and scriptable GDScript or C#, making it the closest free alternative to Unity.",
       "keywords": [
         "game engine",
         "gdscript",
@@ -2148,7 +2167,7 @@
         "macos",
         "windows"
       ],
-      "description": "Closed-source industry-standard engine for 2D and 3D, C# scripting, huge asset store and community.",
+      "description": "An industry-standard commercial engine for 2D and 3D, C# scripting, and multi-platform compilation. It features a vast ecosystem, mature profiling tools, and an expansive commercial Asset Store and community.",
       "keywords": [
         "game engine",
         "c#"
@@ -2178,7 +2197,7 @@
         "macos",
         "windows"
       ],
-      "description": "2D-focused engine with drag-and-drop plus its own GML scripting language, behind Undertale, Hotline Miami, and Hyper Light Drifter.",
+      "description": "A 2D-focused engine with drag-and-drop logic alongside its native GML scripting language. Renowned as the engine behind Undertale, Hotline Miami, and Hyper Light Drifter, it excels at fast 2D development.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -2207,7 +2226,7 @@
         "web",
         "windows"
       ],
-      "description": "No-code, event-based 2D engine, a gentler starting point than Godot or GameMaker if you'd rather not write code yet.",
+      "description": "A no-code, event-based 2D engine that uses visual event sheets to build gameplay mechanics without programming. It serves as a gentler starting point than Godot or GameMaker if you'd rather not write code yet.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -2233,7 +2252,7 @@
       "platforms": [
         "web"
       ],
-      "description": "Browser-based no-code 2D engine, drag-and-drop event sheets, free tier caps events and layers, full access needs a subscription.",
+      "description": "A browser-based no-code 2D engine with drag-and-drop event sheets and instant previewing. The free tier caps events and layers, and full access needs a subscription, but it provides rapid in-browser prototyping.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -2261,7 +2280,7 @@
         "macos",
         "windows"
       ],
-      "description": "Lightweight 2D-focused engine built by King, Lua scripting, tiny builds, strong for mobile.",
+      "description": "A lightweight 2D-focused engine built by King, utilizing Lua scripting and generating tiny builds. It provides zero setup and strong performance, making it especially strong for mobile and web games.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -2284,10 +2303,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Engine-agnostic tile map editor, worth having regardless of which engine you land on for room-based or tile-based level design.",
+      "description": "An engine-agnostic tile map editor, worth having regardless of which engine you land on for room-based or tile-based level design. It exports clean JSON and XML formats across major game frameworks.",
       "keywords": [
         "tilemap",
         "level editor"
@@ -2318,7 +2338,7 @@
         "macos",
         "windows"
       ],
-      "description": "Entity-driven level editor from the Dead Cells designer, complements Tiled rather than replacing it, better suited to placed objects than large tile grids.",
+      "description": "An entity-driven level editor from the Dead Cells designer, complements Tiled rather than replacing it, better suited to placed objects than large tile grids. It includes built-in auto-tiling rules and clean JSON exports.",
       "keywords": [
         "tilemap",
         "level editor"
@@ -2349,7 +2369,7 @@
         "macos",
         "windows"
       ],
-      "description": "AI-powered office suite, available on all platforms.",
+      "description": "A cross-platform office productivity suite containing alternatives to Word, PowerPoint, and Excel with integrated AI document tools. It provides strong file compatibility with Microsoft Office formats, tabbed document browsing, and built-in PDF editing tools.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -2374,10 +2394,11 @@
       "pricing_note": "",
       "platforms": [
         "linux",
+        "bsd",
         "macos",
         "windows"
       ],
-      "description": "Office suite.",
+      "description": "A free and open-source office suite developed by The Document Foundation. It provides complete desktop replacements for Microsoft Office, including Writer, Calc, Impress, and Draw, with native support for OpenDocument standards and Microsoft formats.",
       "keywords": [
         "word",
         "excel",
@@ -2411,7 +2432,7 @@
         "android",
         "ios"
       ],
-      "description": "Slides, Docs, and Sheets are nice alternatives to Microsoft Office.",
+      "description": "A cloud storage and collaborative productivity platform hosting Google Docs, Sheets, and Slides. It provides nice alternatives to Microsoft Office with real-time document collaboration, version history tracking, and seamless cloud syncing.",
       "keywords": [],
       "links": [],
       "icon": null,
@@ -2441,7 +2462,7 @@
         "macos",
         "windows"
       ],
-      "description": "Based on Firefox, workflow might seem a bit odd at first but once you get the hang of it, you don't go back from it (DRM support is broken on windows).",
+      "description": "A Firefox-based desktop browser built around vertical tabs, collapsible sidebars, and customizable split-view workspaces. The workflow might seem a bit odd at first but once you get the hang of it, you don't go back from it, though DRM support is broken on windows.",
       "keywords": [
         "browser"
       ],
@@ -2470,10 +2491,11 @@
         "windows",
         "macos",
         "linux",
+        "bsd",
         "android",
         "ios"
       ],
-      "description": "Privacy and freedom first web browser, faster and lighter engine than chromium browsers.",
+      "description": "A privacy and freedom first web browser built on an independent engine rather than Chromium. It features enhanced tracking protection, extensive extension customizability, and a faster and lighter engine than chromium browsers.",
       "keywords": [
         "browser"
       ],
@@ -2506,7 +2528,7 @@
         "android",
         "ios"
       ],
-      "description": "Privacy-focused web browser, blocks ads and trackers by default.",
+      "description": "A privacy-focused web browser that blocks ads and trackers by default. Built on Chromium, it provides broad web compatibility without Google tracking integrations, alongside optional web3 and rewards features.",
       "keywords": [
         "browser"
       ],
@@ -2535,7 +2557,7 @@
       "platforms": [
         "browser-extension"
       ],
-      "description": "Content blocker, efficient and highly configurable. Chrome only gets uBlock Origin Lite since Google pulled the full version after the Manifest V3 switch, noticeably weaker filtering than the Firefox version.",
+      "description": "A content blocker that is efficient and highly configurable with low memory overhead. Chrome only gets uBlock Origin Lite since Google pulled the full version after the Manifest V3 switch, noticeably weaker filtering than the Firefox version.",
       "keywords": [
         "adblock",
         "ad blocker"
@@ -2571,7 +2593,7 @@
       "platforms": [
         "browser-extension"
       ],
-      "description": "From the EFF, learns to block invisible trackers automatically based on their behavior rather than relying on a manual filter list.",
+      "description": "From the EFF, learns to block invisible trackers automatically based on their behavior rather than relying on a manual filter list. It analyzes third-party web requests dynamically as you browse.",
       "keywords": [],
       "links": [
         {
@@ -2604,7 +2626,7 @@
       "platforms": [
         "browser-extension"
       ],
-      "description": "Serves common libraries (jQuery, etc.) locally instead of fetching them from third-party CDNs, blocking a common tracking vector without breaking sites that depend on those CDNs.",
+      "description": "Serves common libraries (jQuery, etc.) locally instead of fetching them from third-party CDNs. It blocks a common tracking vector without breaking sites that depend on those CDNs, speeding up delivery.",
       "keywords": [],
       "links": [
         {
@@ -2637,7 +2659,7 @@
       "platforms": [
         "browser-extension"
       ],
-      "description": "Strips Google's click-tracking redirect wrapper from Search and Maps links, so clicking or copying a result gives you the real URL directly.",
+      "description": "Strips Google's click-tracking redirect wrapper from Search and Maps links. Clicking or copying a result gives you the real URL directly without recording intermediate tracking pings.",
       "keywords": [],
       "links": [
         {
@@ -2649,6 +2671,697 @@
       "needs_review": [
         "pricing",
         "platforms"
+      ]
+    },
+    {
+      "id": "photocraft",
+      "name": "PhotoCraft",
+      "url": "https://getartcraft.com/apps/photocraft",
+      "groups": [
+        "raster",
+        "artcraft"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "An open-source image editor written entirely in Rust. It covers layers, masks, adjustment layers, layer styles, type, vectors and brushes, with the menus, shortcuts and panels you already know. Native on desktop, with a web build you can host yourself.",
+      "keywords": [
+        "photoshop alternative",
+        "image editor",
+        "raster",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/photocraft"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "vectorcraft",
+      "name": "VectorCraft",
+      "url": "https://getartcraft.com/apps/vectorcraft",
+      "groups": [
+        "vector",
+        "artcraft"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "A vector illustration app built in pure Rust, with the pen tool, panels and shortcuts illustrators already work with. Native on desktop, with a web build you can host yourself.",
+      "keywords": [
+        "illustrator alternative",
+        "vector",
+        "illustration",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/vectorcraft"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "filmcraft",
+      "name": "FilmCraft",
+      "url": "https://getartcraft.com/apps/filmcraft",
+      "groups": [
+        "video",
+        "artcraft"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "A video editor rebuilt from scratch in Rust, with no FFmpeg inside. Open source and aimed at professional editing work, with native desktop builds and a web build you can host yourself.",
+      "keywords": [
+        "premiere alternative",
+        "video editor",
+        "video editing",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/filmcraft"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "lightcraft",
+      "name": "LightCraft",
+      "url": "https://getartcraft.com/apps/lightcraft",
+      "groups": [
+        "raster",
+        "artcraft"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "A photo library and raw developer that runs on your machine, written from scratch in Rust. Organize your photos and develop raw files locally, with no subscription.",
+      "keywords": [
+        "lightroom alternative",
+        "raw developer",
+        "photo library",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/lightcraft"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "pdfcraft",
+      "name": "PdfCraft",
+      "url": "https://getartcraft.com/apps/pdfcraft",
+      "groups": [
+        "other",
+        "artcraft"
+      ],
+      "type": "office",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "A native PDF app for reading, organizing, combining, splitting and securing PDFs. It runs fully on your machine, with no account, no telemetry and no cloud.",
+      "keywords": [
+        "acrobat alternative",
+        "pdf",
+        "merge pdf",
+        "split pdf",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/pdfcraft"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://craft.wiki/apps/pdfcraft/overview/"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "effectcraft",
+      "name": "EffectCraft",
+      "url": "https://getartcraft.com/apps/effectcraft",
+      "groups": [
+        "video",
+        "artcraft"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "Open-source motion graphics and visual effects, built in pure Rust. Native on desktop, with a web build you can host yourself.",
+      "keywords": [
+        "after effects alternative",
+        "motion graphics",
+        "vfx",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/effectcraft"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://craft.wiki/apps/effectcraft/overview/"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "designcraft",
+      "name": "DesignCraft",
+      "url": "https://getartcraft.com/apps/designcraft",
+      "groups": [
+        "vector",
+        "artcraft"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "Page layout and publishing software rebuilt in pure Rust. It has spreads, parent pages, threaded stories, styles, swatches, text wrap and a paragraph composer, and exports print-ready PDFs. No subscription, no license server and no telemetry.",
+      "keywords": [
+        "indesign alternative",
+        "layout",
+        "publishing",
+        "print",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/designcraft"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://craft.wiki/apps/designcraft/overview/"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "figcraft",
+      "name": "FigCraft",
+      "url": "https://getartcraft.com/apps/figcraft",
+      "groups": [
+        "vector",
+        "artcraft"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "Interface design and prototyping in a native app that opens instantly and works offline. It covers frames, auto layout, components, vector networks, variables and prototypes.",
+      "keywords": [
+        "figma alternative",
+        "ui design",
+        "prototyping",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/figcraft"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://craft.wiki/apps/figcraft/overview/"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "texturecraft",
+      "name": "TextureCraft",
+      "url": "https://getartcraft.com/apps/texturecraft",
+      "groups": [
+        "3d",
+        "artcraft"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "A 3D texture painting app. Paint PBR materials directly onto 3D models in layers with masks, bake mesh maps, and export textures for game engines and other tools. Open source and works offline.",
+      "keywords": [
+        "substance painter alternative",
+        "texture painting",
+        "pbr",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/texturecraft"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "materialcraft",
+      "name": "MaterialCraft",
+      "url": "https://getartcraft.com/apps/materialcraft",
+      "groups": [
+        "3d",
+        "artcraft"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "A node-based tool for building tileable PBR materials from noises, patterns and filters. It previews the result live in 2D and 3D and exports maps for game engines and other software.",
+      "keywords": [
+        "substance designer alternative",
+        "procedural materials",
+        "pbr",
+        "node-based",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/materialcraft"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://craft.wiki/apps/materialcraft/overview/"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "wordcraft",
+      "name": "WordCraft",
+      "url": "https://getartcraft.com/apps/wordcraft",
+      "groups": [
+        "other",
+        "artcraft"
+      ],
+      "type": "office",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "A fast word processor that reads and writes .docx files. It has a ribbon, styles, tables, track changes, references and mail merge, and works offline.",
+      "keywords": [
+        "word alternative",
+        "docx",
+        "word processor",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/wordcraft"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://craft.wiki/apps/wordcraft/overview/"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "soundcraft",
+      "name": "SoundCraft",
+      "url": "https://getartcraft.com/apps/soundcraft",
+      "groups": [
+        "audio",
+        "artcraft"
+      ],
+      "type": "tool",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "A digital audio workstation for recording, editing and mixing, built from scratch in Rust. Open source and free on every platform it supports.",
+      "keywords": [
+        "daw",
+        "audio editor",
+        "recording",
+        "mixing",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/soundcraft"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "deckcraft",
+      "name": "DeckCraft",
+      "url": "https://getartcraft.com/apps/deckcraft",
+      "groups": [
+        "other",
+        "artcraft"
+      ],
+      "type": "office",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "A presentation app that builds and delivers slide shows, and opens and saves .pptx files. Written in pure Rust, with no subscription and no cloud.",
+      "keywords": [
+        "powerpoint alternative",
+        "presentations",
+        "pptx",
+        "slides",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/deckcraft"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
+      ]
+    },
+    {
+      "id": "gridcraft",
+      "name": "GridCraft",
+      "url": "https://getartcraft.com/apps/gridcraft",
+      "groups": [
+        "other",
+        "artcraft"
+      ],
+      "type": "office",
+      "license": {
+        "name": "Open source",
+        "url": null,
+        "commercial_use": null
+      },
+      "pricing": "free",
+      "pricing_note": "",
+      "platforms": [
+        "windows",
+        "macos",
+        "linux",
+        "bsd",
+        "web"
+      ],
+      "description": "A native spreadsheet app that reads and writes .xlsx files. It includes PivotTables, charts and more than 500 calculation functions.",
+      "keywords": [
+        "excel alternative",
+        "spreadsheet",
+        "xlsx",
+        "artcraft",
+        "rust",
+        "open source"
+      ],
+      "links": [
+        {
+          "label": "Source code",
+          "url": "https://github.com/storytold/gridcraft"
+        },
+        {
+          "label": "Documentation",
+          "url": "https://craft.wiki/apps/gridcraft/overview/"
+        },
+        {
+          "label": "All ArtCraft apps",
+          "url": "https://getartcraft.com/apps"
+        }
+      ],
+      "icon": null,
+      "needs_review": [
+        "license"
       ]
     }
   ]
