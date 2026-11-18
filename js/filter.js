@@ -187,14 +187,20 @@
     const query = searchInput ? searchInput.value.trim() : '';
 
     if (query) params.set('q', query);
-    if (currentGroup && currentGroup !== 'all') params.set('group', currentGroup);
     if (selectedTypes.size > 0) params.set('type', Array.from(selectedTypes).join(','));
     if (selectedPricings.size > 0) params.set('pricing', Array.from(selectedPricings).join(','));
     if (selectedPlatforms.size > 0) params.set('platform', Array.from(selectedPlatforms).join(','));
     if (selectedLicenses.size > 0) params.set('license', Array.from(selectedLicenses).join(','));
 
+    let basePath = window.location.pathname;
+    if (currentGroup === 'all') {
+      basePath = '/';
+    } else if (groupsMap.has(currentGroup)) {
+      basePath = `/${currentGroup}/`;
+    }
+
     const searchStr = params.toString();
-    const newUrl = searchStr ? `${window.location.pathname}?${searchStr}` : window.location.pathname;
+    const newUrl = searchStr ? `${basePath}?${searchStr}` : basePath;
     window.history.replaceState({}, '', newUrl);
   }
 
@@ -207,12 +213,17 @@
       searchInput.value = q;
     }
 
-    // Group
+    // Group from query param or pathname
     const groupParam = params.get('group');
     if (groupParam && (groupParam === 'all' || groupsMap.has(groupParam))) {
       currentGroup = groupParam;
     } else {
-      currentGroup = 'all';
+      const pathSeg = window.location.pathname.replace(/^\/|\/$/g, '');
+      if (pathSeg && groupsMap.has(pathSeg)) {
+        currentGroup = pathSeg;
+      } else {
+        currentGroup = 'all';
+      }
     }
 
     groupButtons.forEach(btn => {
@@ -321,10 +332,22 @@
 
   // Event Listeners for Groups
   groupButtons.forEach(btn => {
-    btn.addEventListener('click', () => {
-      currentGroup = btn.getAttribute('data-group') || 'all';
+    btn.addEventListener('click', (e) => {
+      if (e.metaKey || e.ctrlKey || e.shiftKey || e.button !== 0) return;
+      e.preventDefault();
+
+      const newGroup = btn.getAttribute('data-group') || 'all';
+      currentGroup = newGroup;
       groupButtons.forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
+
+      const newPath = newGroup === 'all' ? '/' : `/${newGroup}/`;
+      const params = new URLSearchParams(window.location.search);
+      params.delete('group');
+      const searchStr = params.toString();
+      const newUrl = searchStr ? `${newPath}?${searchStr}` : newPath;
+      window.history.pushState({}, '', newUrl);
+
       applyFilters();
     });
   });

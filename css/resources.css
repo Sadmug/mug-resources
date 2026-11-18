@@ -147,6 +147,7 @@ a {
   padding: 6px 2px;
   transition: color var(--transition-base, 0.2s ease-in-out);
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .nav-link:hover {
@@ -351,6 +352,7 @@ a {
   cursor: pointer;
   transition: all var(--transition-fast, 0.15s ease);
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .group-btn:hover {
@@ -703,6 +705,7 @@ a {
   line-height: 1.2;
   border-radius: var(--radius-tag, 8px);
   white-space: nowrap;
+  text-decoration: none;
 }
 
 .badge-type {
